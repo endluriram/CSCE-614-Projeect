@@ -15,7 +15,7 @@ int selected_bit;
 int tracki[b];
 int trackj[b];
 
-int bit_victim_phase()
+int bit_victim_phase(int bit[],int entropy_counter[],int correlation_counter[],int tracki[],int trackj[])
 {
 
 for (int i=0;i<=b;i++)
