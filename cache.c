@@ -62,3 +62,48 @@ int indexofSmallestElement(double array[], int size)
 
     return index;
 }
+
+
+///////////////////////////Bit Selection Phase//////////////////////////////
+
+
+void bit_selection(cache_t , addr, victim _bit)
+{
+  int B=16;
+  int b=6;
+  int index_new=calc_new_index(index,victim_bit); //calculates new index removing victimized bit
+  int tag_new=calc_tag_new();  // calculate new tag selecting B-(b-1) bits
+  
+  
+}
+
+
+
+///function to select new index////////
+int calc_new_index(int num, int pos)
+{
+  
+  int b,c;
+  int b_mask;
+  int c_mask;
+  b_mask=2^(pos-1)-1;
+  b=num & b_mask;
+  c_mask=
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
